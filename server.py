@@ -1,7 +1,11 @@
 from fastapi import FastAPI
 import pymysql
-from database import config
-
+config = {
+    'host': 'srv865.hstgr.io',
+    'user': 'u441049818_360_Bistro',
+    'password': 'Flexwave@193708',
+    'database': 'u441049818_360_Bistro',
+}
 app=FastAPI()
 
 def search_product(value):
