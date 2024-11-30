@@ -21,7 +21,7 @@ def search_product(value):
 @app.get("/")
 async def route():
     return{
-        "Hello World": "Python Program"
+        "Hello World": "Python"
     }
 
 @app.get("/search/{value}")
